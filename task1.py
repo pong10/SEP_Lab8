@@ -3,7 +3,7 @@ from PySide2.QtCore import *
 from PySide2.QtWidgets import*
 from PySide2.QtGui import*
 
-class Simple_drawing_window(QWidget):
+class draw_star(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
         self.setWindowTitle("Simple drawing")
@@ -31,7 +31,7 @@ class Simple_drawing_window(QWidget):
 def main():
     app = QApplication(sys.argv)
 
-    w = Simple_drawing_window()
+    w = draw_star()
     w.show()
 
     return app.exec_()
