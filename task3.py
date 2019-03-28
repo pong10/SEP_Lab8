@@ -56,11 +56,11 @@ class Pole(object):
             turtle.lt(90)
             turtle.fd(self.pthick/2)
 
-def pushdisk(self,disk):
-    disk.newpos(self.pxpos,self.toppos)
-    disk.showdisk()
-    self.stack.append(disk)
-    self.toppos += disk.dheight
+    def pushdisk(self,disk):
+        disk.newpos(self.pxpos,self.toppos)
+        disk.showdisk()
+        self.stack.append(disk)
+        self.toppos += disk.dheight
         self.toppos += 1
     
     
