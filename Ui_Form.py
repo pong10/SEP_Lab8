@@ -5,7 +5,7 @@ class Ui_Form(object):
         Form.resize(723,572)
         self.gridLayout=QtWidgets.QGridLayout(Form)
         self.gridLayout.setObjectName("gridLayout")
-        self.drawField=QtWidgets.QtWidgets.QGraphicsView(Form)
+        self.drawField=QtWidgets.QGraphicsView(Form)
         self.drawField.setObjectName("drawField")
         self.gridLayout.addWidget(self.drawField,0,0,1,1)
         self.clear=QtWidgets.QPushButton(Form)
@@ -14,9 +14,9 @@ class Ui_Form(object):
         self.label=QtWidgets.QLabel(Form)
         self.label.setObjectName("label")
         self.gridLayout.addWidget(self.label,1,0,1,1)
-        self.retranslateUI(Form)
-        QtCore.QMetaObject.connectSlotsByname(Form)
-    def rectraslateUI(self,Form):
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+    def retranslateUi(self,Form):
         Form.setWindowTitle(QtWidgets.QApplication.translate("Form","Form",None,-1))
         self.clear.setText(QtWidgets.QApplication.translate("Form","clear",None,-1))
         self.label.setText(QtWidgets.QApplication.translate("Form","Drag the mouse to draw",None,-1))

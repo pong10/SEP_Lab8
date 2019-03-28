@@ -1,8 +1,8 @@
 import sys
 from PySide2.QtWidgets import *
-
-import Draw
-import Ui_Form
+from PySide2.QtCore import *
+from Draw import Draw
+from Ui_Form import Ui_Form
 
 class Paint(QWidget):
     def __init__(self):
