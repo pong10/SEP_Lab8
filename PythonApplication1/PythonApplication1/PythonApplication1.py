@@ -24,7 +24,7 @@ class Simple_drawing_window(QWidget):
 
         p.drawPolygon([QPoint(50,200),QPoint(250,200),QPoint(150,350),])
 
-        p.drawPixmap(QRect(400,100,320,320),self.rabbit)
+        p.drawPixmap(QRect(360,100,320,320),self.rabbit)
         p.end()
 
 def main():
