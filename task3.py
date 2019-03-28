@@ -3,7 +3,7 @@ import turtle
 
 class Disk(object):
 
-    def __init__(self, name="", xpos=-100, ypos=0, height=20, width=40):
+    def __init__(self, name="", xpos=0, ypos=0, height=20, width=40):
         self.dname = name
         self.dxpos = xpos
         self.dypos = ypos
